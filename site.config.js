@@ -8,7 +8,7 @@ window.siteConfig = {
     email: "hello@example.com",
     phone: "(555) 123-4567",
     location: "Chicago, Illinois",
-    bookingUrl: "https://calendly.com/",
+    bookingUrl: "https://www.bby.site/shutterupphotography662/book",
   },
   hero: {
     primaryCtaText: "Book a Session",
