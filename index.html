@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Studio</title>
+    <meta
+      name="description"
+      content="Professional photography for weddings, portraits, branding, and events."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav container">
+        <a href="#home" class="brand" id="brandName">Photography Studio</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">Menu</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content container">
+        <p class="eyebrow" id="heroEyebrow"></p>
+        <h1 id="heroHeadline"></h1>
+        <p class="hero-subtext" id="heroSubtext"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" id="heroCtaPrimary" href="#contact">Book a Session</a>
+          <a class="btn btn-secondary" id="heroCtaSecondary" href="#portfolio">View Portfolio</a>
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+    </header>
+
+    <main>
+      <section class="about section container" id="about">
+        <div class="about-copy">
+          <p class="eyebrow">About</p>
+          <h2 id="aboutHeadline"></h2>
+          <p id="aboutText"></p>
+        </div>
+        <div class="about-image-frame">
+          <img id="aboutImage" src="" alt="Photographer at work" />
+        </div>
+      </section>
+
+      <section class="section container" id="services">
+        <p class="eyebrow">Services</p>
+        <h2>What I Photograph</h2>
+        <div class="card-grid" id="servicesGrid"></div>
+      </section>
+
+      <section class="section portfolio-section" id="portfolio">
+        <div class="container">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Recent Work</h2>
+          <p class="section-intro" id="portfolioIntro"></p>
+          <div class="masonry-grid" id="portfolioGrid"></div>
+        </div>
+      </section>
+
+      <section class="section container" id="pricing">
+        <p class="eyebrow">Pricing</p>
+        <h2>Packages</h2>
+        <div class="card-grid" id="pricingGrid"></div>
+      </section>
+
+      <section class="section testimonials-section">
+        <div class="container">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Client Notes</h2>
+          <div class="testimonial-grid" id="testimonialGrid"></div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-layout">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contactHeadline"></h2>
+            <p id="contactText"></p>
+            <div class="contact-list">
+              <p><strong>Email:</strong> <a id="emailLink" href=""></a></p>
+              <p><strong>Phone:</strong> <a id="phoneLink" href=""></a></p>
+              <p><strong>Location:</strong> <span id="locationText"></span></p>
+            </div>
+            <div class="social-links" id="socialLinks"></div>
+          </div>
+          <a class="btn btn-primary contact-cta" id="bookingLink" href="" target="_blank" rel="noreferrer">
+            Book Now
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p id="footerText"></p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="./site.config.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
