@@ -1,13 +1,13 @@
 window.siteConfig = {
   business: {
-    name: "Kelis Malone Photography",
+    name: "Shutter Up Photography 662",
     tagline: "Photography with warmth, style, and story",
     headline: "Timeless photography for modern couples, families, and brands.",
     subtext:
       "I create natural, editorial images that feel effortless while capturing real emotion.",
-    email: "hello@example.com",
-    phone: "(555) 123-4567",
-    location: "Chicago, Illinois",
+    email: "shutterupphotography662@gmail.com",
+    phone: "(662) 288-8163",
+    location: "Hybrid",
     bookingUrl: "https://www.bby.site/shutterupphotography662/book",
   },
   hero: {
@@ -44,39 +44,33 @@ window.siteConfig = {
     items: [
       {
         image:
-          "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-        alt: "Wedding couple in evening light",
-        caption: "Downtown rooftop wedding",
+          "https://cdn.myportfolio.com/53eaac82-8c60-40e0-bd7c-a7196cbce93b/45a1d0ed-ce2d-4e72-9ea4-d8efd019acce_rw_1200.jpg?h=021019b1f3c5f6d3f56d237e12cbc46b",
+        alt: "Wedding couple at train station,
+        caption: "Downtown wedding",
       },
       {
         image:
-          "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=80",
-        alt: "Portrait of a woman near window light",
-        caption: "Editorial portrait session",
+          "https://cdn.myportfolio.com/53eaac82-8c60-40e0-bd7c-a7196cbce93b/aed3f9e0-7369-4498-87e1-60a0b4659390_rw_1920.jpg?h=02b2ac50a1f9b236b8eb4d74340d76d9",
+        alt: "Man in front of mirror",
+        caption: "Birthday Shoot Session",
       },
       {
         image:
-          "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
-        alt: "Beauty branding detail shot",
-        caption: "Brand detail series",
+          "https://cdn.myportfolio.com/53eaac82-8c60-40e0-bd7c-a7196cbce93b/8fd2a292-119e-4be8-8126-db24d809eebc_rw_1200.jpg?h=fbf6f91e1266d7c44ed95b37056a274b",
+        alt: "Cece Winans smiling with crowd in background",
+        caption: "Christmas with CeCe Winans",
       },
       {
         image:
-          "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
-        alt: "Group at event smiling",
-        caption: "Private event coverage",
+          "https://cdn.myportfolio.com/53eaac82-8c60-40e0-bd7c-a7196cbce93b/592676cf-0352-4154-aa6b-1c5e5f881f8b_rw_600.jpeg?h=51c5cb76bd186c293418ab16d91b8dc6",
+        alt: "Man jumping in sand pit",
+        caption: "Focus of an Athlete",
       },
       {
         image:
-          "https://images.unsplash.com/photo-1472746729193-36ad213ac4a5?auto=format&fit=crop&w=1200&q=80",
-        alt: "Family portrait outdoors",
-        caption: "Family sunset session",
-      },
-      {
-        image:
-          "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
-        alt: "Entrepreneur personal branding portrait",
-        caption: "Branding portrait",
+          "https://cdn.myportfolio.com/53eaac82-8c60-40e0-bd7c-a7196cbce93b/2a79c01b-e636-44ca-b4bb-c1cb305a533a_rw_1200.jpg?h=193f5cec65217dcce620d1f2909749c9",
+        alt: "Baby walking and pointing at camera",
+        caption: "Baby's first football game",
       },
     ],
   },
@@ -99,25 +93,17 @@ window.siteConfig = {
   ],
   testimonials: [
     {
-      quote:
-        "Kelis made us feel comfortable immediately. Our photos feel authentic and cinematic.",
-      author: "Marina & Alex",
+     
     },
     {
-      quote:
-        "Our brand photos finally look cohesive and premium. The session was organized and fun.",
-      author: "The Gray Studio",
+     
     },
     {
-      quote:
-        "The gallery was stunning and delivered quickly. We will absolutely book again.",
-      author: "Nia R.",
+      
     },
   ],
   social: [
-    { label: "Instagram", url: "https://instagram.com/" },
-    { label: "Pinterest", url: "https://pinterest.com/" },
-    { label: "TikTok", url: "https://tiktok.com/" },
+    { label: "Instagram", url: "https://www.instagram.com/shutterupphotography662?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
   ],
   theme: {
     bg: "#f6f1e9",
@@ -128,8 +114,7 @@ window.siteConfig = {
     primaryContrast: "#fff7ed",
     accent: "#d97706",
     border: "#e4dbd1",
-    heroImage:
-      'linear-gradient(120deg, rgba(27, 20, 14, 0.64), rgba(67, 40, 24, 0.38)), url("https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=80")',
+  
   },
-  footerNote: "All images and content copyright Kelis Malone Photography.",
+  footerNote: "All images and content copyright Kelis Cordier.",
 };
